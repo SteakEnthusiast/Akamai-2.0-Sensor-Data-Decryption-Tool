@@ -1,0 +1,14 @@
+{
+  "name": "akamai-2.0-sensor-data-decryption-tool",
+  "version": "1.0.0",
+  "description": "This CLI tool allows you to convert the encrypted Akamai 2.0 sensor data payload back to its plaintext form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
