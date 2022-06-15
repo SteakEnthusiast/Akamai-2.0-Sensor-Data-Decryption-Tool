@@ -11,7 +11,7 @@
 
 `node index.js`
 
-## Enter full unencrypted payload:
+## Enter full unencrypted payload and press ENTER:
 
 ```
 Enter JSON Sensor Data:
