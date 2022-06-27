@@ -11,7 +11,7 @@ const {decrypt} = require("./deobfuscator.js")
     });
   
     readline.question(`Enter JSON Sensor Data: \n`, (sensorInput) => {
-      let sensor = sensorInput;
+      const sensor = sensorInput;
       try {
         console.log("\nResult:\n" + decrypt(sensor));
       } catch {
