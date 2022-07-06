@@ -117,7 +117,7 @@ function decryptMain(payload) {
   // Some sort of reordering
   sensor_data = decryptInner(sensor_data, key2);
 
-  sensor_data = removeSplitter(prefix + sensor_data);
+  sensor_data = removeSplitter(sensor_data);
   return `{"sensor_data":"${prefix + sensor_data}"}`;
 }
 
