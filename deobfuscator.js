@@ -1,3 +1,4 @@
+"use strict"
 /**
  * Removes the outer string obfuscation and returns plain-text sensor data
  * @param {String} data The Encrypted Sensor Data
@@ -26,8 +27,8 @@ const decryptOuter = function (data, key) {
     key += 4282663;
     key &= 8388607;
 
-    originalIndex = data.charCodeAt(MZ);
-    newIndex = charIndexArr[originalIndex];
+    const originalIndex = data.charCodeAt(MZ);
+    let newIndex = charIndexArr[originalIndex];
     newIndex -= rZ % chars.length;
     newIndex = newIndex < 0 ? newIndex + chars.length : newIndex;
     decrypted += chars[newIndex];
