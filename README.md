@@ -7,7 +7,13 @@
 
 `npm install`
 
+## Compile the program
+
+In the terminal, run `tsc`
+
 ## Run the program
+
+Navigate to the 'dist' folder and run:
 
 `node index.js`
 
