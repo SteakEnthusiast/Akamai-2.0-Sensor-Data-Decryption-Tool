@@ -23,17 +23,3 @@ Navigate to the 'dist' folder and run:
 Enter JSON Sensor Data:
 {"sensor_data":"XXXXXXXXXXXXXX"}
 ```
-
-# Bonus: Akamai 2.0 and Akamai 1.75 Sensor Data Generation API For Rent
-
-## Features:
-- 🧪 Supports versions: 1.75 & 2.0
-- 🧪 custom usage plans that fits every business model
-- 🧪 free trial
-- 🧪 24/7 support from all timezones
-- 🧪 scales without any limitations
-- 🌐 FREE access to the best TLS client on the market. Each Akamai client gets a free TLS api key!
-## Discord
-
-Join our discord server and create a ticket for more information:
-https://discord.gg/dmYqqeVnN2
