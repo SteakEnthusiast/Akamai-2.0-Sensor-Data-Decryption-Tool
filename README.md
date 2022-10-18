@@ -11,15 +11,15 @@
 
 In the terminal, run `tsc`
 
+## Enter full unencrypted payload and press ENTER:
+
+```
+Enter JSON Sensor Data in sensordatas.txt
+It can handle from 1 to n obj of sensordata, 1 for each line
+```
+
 ## Run the program
 
 Navigate to the 'dist' folder and run:
 
 `node index.js`
-
-## Enter full unencrypted payload and press ENTER:
-
-```
-Enter JSON Sensor Data:
-{"sensor_data":"XXXXXXXXXXXXXX"}
-```
